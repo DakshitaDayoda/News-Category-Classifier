@@ -17,11 +17,11 @@ st.set_page_config(
 # LOAD MODEL & VECTORIZER
 # -----------------------------
 svm_model = joblib.load(
-    "C:/Users/user/Desktop/Dakshita project/NLP/New Project/svm_model.pkl"
+    "svm_model.pkl"
 )
 
 vectorizer = joblib.load(
-    "C:/Users/user/Desktop/Dakshita project/NLP/New Project/tfidf_vectorizer.pkl"
+    "tfidf_vectorizer.pkl"
 )
 
 # -----------------------------
